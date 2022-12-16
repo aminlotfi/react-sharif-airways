@@ -1,0 +1,1 @@
+### Global static assets such as images, fonts, svgs, company logo, etc.
