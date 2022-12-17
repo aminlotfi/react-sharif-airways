@@ -52,7 +52,37 @@
     html {
         font-family: iranyekan, serif !important;
     }
+
+    body {
+        @apply bg-[#f6f6f6] dark:bg-black;
+        direction: rtl;
+    }
 }
 
 @tailwind components;
+
+@layer components {
+    .text-title {
+        @apply text-[#1F2434] dark:text-white;
+    }
+
+    .card-box {
+        @apply bg-white dark:bg-[#292c34] rounded-10;
+    }
+
+    .custom-input {
+        @apply w-full border bg-transparent text-title text-[14px] rounded-5 px-4 py-2 mt-2 focus:border-primary-dark focus:border-2 outline-none;
+    }
+}
+
 @tailwind utilities;
+
+@layer utilities {
+    .dir-rtl {
+        direction: rtl !important;
+    }
+
+    .dir-ltr {
+        direction: ltr !important;
+    }
+}
