@@ -57,6 +57,10 @@
         @apply bg-[#f6f6f6] dark:bg-black;
         direction: rtl;
     }
+
+    .content-vp {
+        height: calc(100vh - 455px);
+    }
 }
 
 @tailwind components;

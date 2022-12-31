@@ -1,6 +1,10 @@
+import DefaultLayout from "../components/layouts/DefaultLayout";
+
 const Landing = () => {
     return (
-        <h1>هواپیمائی شریف</h1>
+        <DefaultLayout>
+            <h1 className="text-4xl font-bold">Landing Page</h1>
+        </DefaultLayout>
     )
 }
 
